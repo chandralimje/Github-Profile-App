@@ -1,0 +1,32 @@
+.frame{
+    background-color: rgba(107, 201, 161, 0.719);
+    width: 250px;
+    height: 350px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.Img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.btn{
+    padding: 12px;
+    background-color: beige;
+    border-radius: 4.5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(20, 58, 80);
+    transition: 1s;
+    color: whitesmoke;
+}
+
